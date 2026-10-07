@@ -290,6 +290,7 @@ h1, h2, h3, .serif { font-variation-settings: "opsz" 28; }
   border: 1px dashed rgba(52, 70, 77, .36);
   border-radius: 999px;
 }
+.split__photo > .slot__mark { position: static; inset: auto; object-fit: contain; width: auto; height: clamp(120px, 16vw, 220px); opacity: .22; }
 .slot__label small { font-weight: 500; letter-spacing: .08em; text-transform: none; font-size: 12px; }
 .slot--room::before {
   background:
